@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/*main - Entry point
+/*
+ * main - Entry point
  * Description:
  * * This is a c script
  * * It prints an output to the screen
