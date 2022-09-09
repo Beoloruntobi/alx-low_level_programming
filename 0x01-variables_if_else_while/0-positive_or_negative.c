@@ -6,7 +6,7 @@
 /**
  * main - Opening function for the program
  * Description - Code checks for positivity
- * Return - Returns 0 if well
+ * Return: Returns 0 if well
  */
 int main(void)
 {
@@ -15,7 +15,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if(n < 0)
+	if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
