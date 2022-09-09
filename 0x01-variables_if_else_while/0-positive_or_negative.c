@@ -1,8 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-
+#include <stdio.h>
 /* betty style doc for function main goes there */
+/**
+ * main - Opening function for the program
+ * Description - Code checks for positivity
+ * Return - Returns 0 if well
+ */
 int main(void)
 {
 	int n;
