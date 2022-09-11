@@ -6,6 +6,7 @@
  * Description - Script to change text to lowercase
  * Return: 0
  */
+
 int main(void)
 {
 	char alph;
