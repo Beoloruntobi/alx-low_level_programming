@@ -21,7 +21,7 @@ int main(void)
 		upper_alph++;
 	}
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
