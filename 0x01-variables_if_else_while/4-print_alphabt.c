@@ -10,15 +10,15 @@
 
 int main(void)
 {
-	char alph = 'a';
+	char al = 'a';
 
-	while (alph <= 'z')
+	while (al <= 'z')
 	{
-		if (!(alph == 'q' || alph == 'e'))
+		if (!(al == 'q' || al == 'e'))
 		{
-			putchar(alph);
+			putchar(al);
 		}
-		alph++;
+		al++;
 	}
 
 	putchar('\n');
