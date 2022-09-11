@@ -13,11 +13,14 @@ int main(void)
 	char lower_alph = 'a';
 	char upper_alph = 'A';
 
-	while (upper_alph <= 'Z')
+	while (lower_alph <= 'z')
 	{
 		putchar(lower_alph);
-		putchar(upper_alph);
 		lower_alph++;
+	}
+	while (upper_alph <= 'Z')
+	{
+		putchar(upper_alph);
 		upper_alph++;
 	}
 
