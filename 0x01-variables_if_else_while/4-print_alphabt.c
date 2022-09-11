@@ -3,7 +3,8 @@
 /**
  * main - Function that starts the program
  *
- * Description - This script prints the alphabet in lowercase except letters q and e
+ * Description - This script prints the alphabet 
+ * in lowercase except letters q and e
  *
  * Return: Return 0
  */
