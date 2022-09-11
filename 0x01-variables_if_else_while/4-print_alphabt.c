@@ -14,10 +14,12 @@ int main(void)
 
 	while (al <= 'z')
 	{
-		if (!(al == 'q' || al == 'e'))
+		if (al == 'q' || al == 'e')
 		{
-			putchar(al);
+			al++;
 		}
+
+		putchar(al);
 		al++;
 	}
 
