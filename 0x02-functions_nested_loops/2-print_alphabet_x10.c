@@ -1,34 +1,25 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Starts here
- * Description - This script prints the alphabets in lowercase
- * Return: Returns 0 if well
+ * print_alphabet_x10 - Starts here
+ * Description - This script prints the alphabets
+ * in lowercase
  */
-
-void print_alphabet_x10(void);
-
-int main(void)
-{
-	int n = 1;
-
-	while (n <= 10)
-	{
-		print_alphabet_x10();
-		n++;
-	}
-	
-	return (0);
-}
 
 void print_alphabet_x10(void)
 {
-	char alph = 'a';
+	int num, alph;
 
-	while (alph <= 'z')
+	num = 1;
+	while (num <= 10)
 	{
-		putchar(alph);
-		alph++;
+		alph = 'a';
+		while (alph <= 'z')
+		{
+			_putchar(alph);
+			alph++;
+		}
+		putchar('\n');
+		num++;
 	}
-	putchar('\n');
 }
