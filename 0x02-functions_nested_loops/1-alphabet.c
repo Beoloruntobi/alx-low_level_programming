@@ -1,19 +1,9 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Starts here
- * Description - This script prints the alphabets in lowercase
- * Return: Returns 0 if well
+ * Description - This script prints the alphabets
+ * in lowercase
  */
-
-void print_alphabet(void);
-
-int main(void)
-{
-	print_alphabet();
-
-	return (0);
-}
 
 void print_alphabet(void)
 {
@@ -21,8 +11,8 @@ void print_alphabet(void)
 
 	while (alph <= 'z')
 	{
-		putchar(alph);
+		_putchar(alph);
 		alph++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
