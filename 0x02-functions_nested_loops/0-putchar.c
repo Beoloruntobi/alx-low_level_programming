@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include"main.h"
 
 /**
  * main - start
@@ -8,7 +8,14 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	char str[] = "_putchar";
+	int alph;
+
+	for (alph = 0; alph < 8; alph++)
+	{
+		_putchar(str[alph]);
+	}
+	_putchar('\n');
 
 	return (0);
 }
