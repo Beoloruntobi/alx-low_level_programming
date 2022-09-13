@@ -1,40 +1,11 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Starts here
+ * print_sign - Starts here
  * Description - This script checks that the input is an alphabet character
+ * @n: Input into the function
  * Return: Returns 1 if letter, 0 otherwise
  */
-
-int print_sign(int n);
-
-int main(void)
-{
-	int r;
-
-	r = print_sign(98);
-	putchar(',');
-	putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
-	r = print_sign(0);
-	putchar(',');
-	putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
-	r = print_sign(0xff);
-	putchar(',');
-	putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
-	r = print_sign(-1);
-	putchar(',');
-	putchar(' ');
-	putchar(r + '0');
-	putchar('\n');
-	return (0);
-
-}
 
 int print_sign(int n)
 {
