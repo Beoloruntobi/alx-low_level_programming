@@ -3,7 +3,7 @@
 /**
  * main - start
  * Description - Print _putchar to screen
- * Return - Return 0 if successful
+ * Return: Return 0 if successful
  */
 
 int main(void)
