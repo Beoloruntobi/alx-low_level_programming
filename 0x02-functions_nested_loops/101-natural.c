@@ -4,7 +4,7 @@
  * main - Starts here
  * Description - SUm of all multiples
  * of 3 and 5 between 1 and 1024
- * Return: Return 0 
+ * Return: Return 0
  */
 
 int main(void)
