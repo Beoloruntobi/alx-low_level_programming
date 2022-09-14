@@ -3,7 +3,7 @@
 /**
  * main - Starting point
  *
- * Description - Print the first 
+ * Description - Print the first
  * 50 fibonacci numbers
  *
  * Return: Return 0 if successful
