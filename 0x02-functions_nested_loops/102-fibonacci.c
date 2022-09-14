@@ -20,7 +20,7 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		next_fib = num_1 + num_2;
-		printf("%lu", sum);
+		printf("%lu", next_fib);
 
 		num_1 = num_2;
 		num_2 = next_fib;
@@ -34,4 +34,5 @@ int main(void)
 			printf(", ");
 		}
 	}
+	return (0);
 }
