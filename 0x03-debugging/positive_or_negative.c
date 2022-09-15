@@ -3,10 +3,10 @@
 /**
  * positive_or_negative - Opening function for the program
  * Description - Code checks for positivity
- * @i: input into function
+ * @n: input into function
  */
 
-void positive_or_negative(i)
+void positive_or_negative(int n)
 {
 	/* your code goes there */
 	if (n < 0)
