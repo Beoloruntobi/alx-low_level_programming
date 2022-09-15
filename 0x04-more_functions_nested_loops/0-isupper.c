@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * _islower - Starts here
+ * _isupper - Starts here
  * Description - This script checks that the input is in lowercase
  * @c: This is the input into the function
  * Return: Returns 1 if lowercase, 0 otherwise
