@@ -11,4 +11,5 @@ void rev_string(char *s)
 	char str[];
 
 	str = strrev(s);
+	*s = str;
 }
