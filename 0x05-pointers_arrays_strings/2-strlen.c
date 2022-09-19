@@ -11,7 +11,7 @@ int _strlen(char *s)
 {
 	int len;
 
-	len = strlen(*s);
+	len = strlen(const *s);
 	_putchar(len + '0');
 
 	return (0);
