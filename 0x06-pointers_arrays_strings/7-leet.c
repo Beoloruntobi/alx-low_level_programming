@@ -9,7 +9,7 @@
 char *leet(char *str)
 {
 	int i, j;
-	int lowerc[] = {97, 101, 108; 111, 116};
+	int lowerc[] = {97, 101, 108, 111, 116};
 	int upperc[] = {65, 69, 76, 79, 84};
 	int repn[] = {52, 51, 49, 48, 55};
 
