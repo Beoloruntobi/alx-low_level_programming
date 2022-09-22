@@ -14,11 +14,11 @@ char *rot13(char *str)
 
 	while (str[j] != '\0')
 	{
-		if (str[j] >= 65 && str[j] <= 77)
+		if ((str[j] >= 65 && str[j] <= 77) || (str[j] >= 97 && str[j] <= 109))
 		{
 			str[j] += 13;
 		}
-		else if (str[j] >= 78 && str[j] <= 90)
+		else if ((str[j] >= 78 && str[j] <= 90) || (str[j] >= 110 && str[j] <= 122))
 		{
 			str[j] -= 13;
 		}
