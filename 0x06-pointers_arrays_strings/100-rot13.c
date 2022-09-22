@@ -18,7 +18,7 @@ char *rot13(char *str)
 		{
 			str[j] += 13;
 		}
-		else
+		else if (str[j] >= 78 && str[j] <= 90)
 		{
 			str[j] -= 13;
 		}
