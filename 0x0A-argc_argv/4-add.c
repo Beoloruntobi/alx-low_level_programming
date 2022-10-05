@@ -30,7 +30,7 @@ int isNum(char num[])
  * Return: Returns 0
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i, sum;
 
@@ -56,5 +56,4 @@ int main (int argc, char *argv[])
 		printf("%d\n", sum);
 	}
 	return (0);
-}
-		
+}	
